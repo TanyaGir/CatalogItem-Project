@@ -34,7 +34,7 @@ session = DBSession
 
 def login_required(f):
     @wraps(f)
-    def decorated_ function(*args, **kwargs):
+    def decorated_function(*args, **kwargs):
         if 'username' not in login_session:
             return redirect('/login')
         return f(*args, **kwargs)
