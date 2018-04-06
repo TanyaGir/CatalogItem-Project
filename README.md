@@ -49,13 +49,13 @@ We're using tools called Vagrant and VirtualBox to install and manage the VM. Yo
 * This will create a database file by the name `restaurantmenuwithusers.db`
 * Once this .db file has been created inside ur project folder you can populate it by running the following coomand in the gitbash terminal `python lotsfomenus.py` .
 
-## Create a Google ID and client
+## Create a Google ID and client secret
 
-* Create and then Go to your app's page in the Facebook Developers Console — https://developers.facebook.com/apps/
-* Go to Settings from the menu on the left and select Add Product.
-* Create Facebook Log in, configure Client OAuth Settings and Valid OAuth redirect URIs (http://localhost:5000) etc and save changes.
-* Add your relevant APP ID to the Facebook Log in Script in login.html.
-* Set the APP ID and APP Secret in the fb_client_secrets.json file.
+* Create and then Go to your app's page in the Google Developers Console — https://console.developers.google.com/apis
+* Go to Credentials from the menu on the left.
+* Create OAuth 2.0 Client ID.
+* Choose web application.
+* You can then set the authorized JavaScript origins to http://localhost:5000.
 
 ## API endpoints
 
