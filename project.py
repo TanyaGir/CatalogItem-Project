@@ -27,7 +27,7 @@ engine = create_engine('sqlite:///restaurantmenuwithusers.db')
 Base.metadata.bind = engine
 
 DBSession = sessionmaker(bind=engine)
-session = DBSession
+session = DBSession()
 
 # Create a login function to check if a user is logged in or anothe
 
